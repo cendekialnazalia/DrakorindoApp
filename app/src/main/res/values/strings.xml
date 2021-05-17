@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DrakorindoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_drama">DetailDramaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_detail_variety_show">DetailVarietyShowActivity</string>
+    <string name="drama">Drama</string>
+    <string name="variety_show">Variety Show</string>
+    <string name="type_duration">Type - Duration</string>
+    <string name="tittle">Tittle</string>
+    <string name="btn_trailer">TRAILER</string>
+    <string name="tv_overview">Overview</string>
+    <string name="tag_line_creator">Creator</string>
+    <string name="creator_name">Crator Name</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="menu_favorite">favorite</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+</resources>

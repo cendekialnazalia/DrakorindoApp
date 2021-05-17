@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.ui.detail.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.cendekia.drakorindoapp.ui.favorite.drama.FavoriteDramaFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_favorite_drama">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.cendekia.drakorindoapp.ui.favorite.variety.FavoriteVarietyFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_favorite_variety">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
