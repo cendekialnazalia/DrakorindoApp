@@ -1,0 +1,2 @@
+# DrakorindoApp
+In this application you can find various dramas and variety shows. This application has used Testing, Android Jetpack, Android Architecture Component, ViewModel, Android Jetpack Project Case Studies, Architecture Component Implementation Case Studies, Repository and Injection, LiveData and Retrofit, Idling Resources, Repository and LiveData Implementation Case Studies, Room, Paging, and RawQuery
